@@ -12,13 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        _=0;
-        var a = 5;
-        var b = 3;
-        var c = a + b;
-        var d = c;
-        var z = a;
-        var v = a;
+       
         // Do any additional setup after loading the view.
     }
 
