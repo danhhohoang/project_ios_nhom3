@@ -13,6 +13,15 @@
 		660555652840DA79005BB6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660555642840DA79005BB6DF /* Assets.xcassets */; };
 		660555682840DA79005BB6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660555662840DA79005BB6DF /* LaunchScreen.storyboard */; };
 		660555732840DA79005BB6DF /* project_nhom3_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660555722840DA79005BB6DF /* project_nhom3_iosTests.swift */; };
+		6605558B2840DC2F005BB6DF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 660555822840DC2E005BB6DF /* FMResultSet.m */; };
+		6605558C2840DC2F005BB6DF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 660555842840DC2E005BB6DF /* FMDatabaseAdditions.m */; };
+		6605558D2840DC2F005BB6DF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 660555852840DC2E005BB6DF /* FMDatabasePool.m */; };
+		6605558E2840DC2F005BB6DF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 660555872840DC2E005BB6DF /* FMDatabaseQueue.m */; };
+		6605558F2840DC2F005BB6DF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 660555882840DC2E005BB6DF /* FMDatabase.m */; };
+		660555922840DC6B005BB6DF /* DatabaseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660555912840DC6B005BB6DF /* DatabaseLayer.swift */; };
+		660555952840DCD3005BB6DF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660555942840DCD3005BB6DF /* Product.swift */; };
+		660555972840DDA4005BB6DF /* MobileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660555962840DDA4005BB6DF /* MobileTableViewController.swift */; };
+		660555992840DE38005BB6DF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 660555982840DE38005BB6DF /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,22 @@
 		6605556E2840DA79005BB6DF /* project_nhom3_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project_nhom3_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660555722840DA79005BB6DF /* project_nhom3_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_nhom3_iosTests.swift; sourceTree = "<group>"; };
 		660555742840DA79005BB6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6605557F2840DC2D005BB6DF /* project_nhom3_ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "project_nhom3_ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		660555802840DC2E005BB6DF /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		660555812840DC2E005BB6DF /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		660555822840DC2E005BB6DF /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		660555832840DC2E005BB6DF /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		660555842840DC2E005BB6DF /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		660555852840DC2E005BB6DF /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		660555862840DC2E005BB6DF /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		660555872840DC2E005BB6DF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		660555882840DC2E005BB6DF /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		660555892840DC2F005BB6DF /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		6605558A2840DC2F005BB6DF /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		660555912840DC6B005BB6DF /* DatabaseLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseLayer.swift; sourceTree = "<group>"; };
+		660555942840DCD3005BB6DF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		660555962840DDA4005BB6DF /* MobileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileTableViewController.swift; sourceTree = "<group>"; };
+		660555982840DE38005BB6DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +84,7 @@
 		660555512840DA77005BB6DF = {
 			isa = PBXGroup;
 			children = (
+				660555982840DE38005BB6DF /* Default-568h@2x.png */,
 				6605555C2840DA77005BB6DF /* project_nhom3_ios */,
 				660555712840DA79005BB6DF /* project_nhom3_iosTests */,
 				6605555B2840DA77005BB6DF /* Products */,
@@ -77,12 +103,13 @@
 		6605555C2840DA77005BB6DF /* project_nhom3_ios */ = {
 			isa = PBXGroup;
 			children = (
-				6605555D2840DA77005BB6DF /* AppDelegate.swift */,
 				6605555F2840DA77005BB6DF /* ViewController.swift */,
+				660555962840DDA4005BB6DF /* MobileTableViewController.swift */,
 				660555612840DA77005BB6DF /* Main.storyboard */,
-				660555642840DA79005BB6DF /* Assets.xcassets */,
-				660555662840DA79005BB6DF /* LaunchScreen.storyboard */,
-				660555692840DA79005BB6DF /* Info.plist */,
+				660555902840DC47005BB6DF /* DAL */,
+				6605557E2840DBC9005BB6DF /* FMDB */,
+				6605557D2840DB6C005BB6DF /* System file */,
+				660555932840DC9F005BB6DF /* DataModels */,
 			);
 			path = project_nhom3_ios;
 			sourceTree = "<group>";
@@ -94,6 +121,52 @@
 				660555742840DA79005BB6DF /* Info.plist */,
 			);
 			path = project_nhom3_iosTests;
+			sourceTree = "<group>";
+		};
+		6605557D2840DB6C005BB6DF /* System file */ = {
+			isa = PBXGroup;
+			children = (
+				6605555D2840DA77005BB6DF /* AppDelegate.swift */,
+				660555642840DA79005BB6DF /* Assets.xcassets */,
+				660555662840DA79005BB6DF /* LaunchScreen.storyboard */,
+				660555692840DA79005BB6DF /* Info.plist */,
+			);
+			path = "System file";
+			sourceTree = "<group>";
+		};
+		6605557E2840DBC9005BB6DF /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				660555892840DC2F005BB6DF /* FMDatabase.h */,
+				660555882840DC2E005BB6DF /* FMDatabase.m */,
+				660555832840DC2E005BB6DF /* FMDatabaseAdditions.h */,
+				660555842840DC2E005BB6DF /* FMDatabaseAdditions.m */,
+				6605558A2840DC2F005BB6DF /* FMDatabasePool.h */,
+				660555852840DC2E005BB6DF /* FMDatabasePool.m */,
+				660555802840DC2E005BB6DF /* FMDatabaseQueue.h */,
+				660555872840DC2E005BB6DF /* FMDatabaseQueue.m */,
+				660555862840DC2E005BB6DF /* FMDB.h */,
+				660555812840DC2E005BB6DF /* FMResultSet.h */,
+				660555822840DC2E005BB6DF /* FMResultSet.m */,
+				6605557F2840DC2D005BB6DF /* project_nhom3_ios-Bridging-Header.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		660555902840DC47005BB6DF /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				660555912840DC6B005BB6DF /* DatabaseLayer.swift */,
+			);
+			path = DAL;
+			sourceTree = "<group>";
+		};
+		660555932840DC9F005BB6DF /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				660555942840DCD3005BB6DF /* Product.swift */,
+			);
+			name = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +219,7 @@
 				TargetAttributes = {
 					660555592840DA77005BB6DF = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					6605556D2840DA79005BB6DF = {
 						CreatedOnToolsVersion = 10.3;
@@ -178,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				660555682840DA79005BB6DF /* LaunchScreen.storyboard in Resources */,
+				660555992840DE38005BB6DF /* Default-568h@2x.png in Resources */,
 				660555652840DA79005BB6DF /* Assets.xcassets in Resources */,
 				660555632840DA77005BB6DF /* Main.storyboard in Resources */,
 			);
@@ -197,8 +272,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660555922840DC6B005BB6DF /* DatabaseLayer.swift in Sources */,
+				6605558B2840DC2F005BB6DF /* FMResultSet.m in Sources */,
+				660555952840DCD3005BB6DF /* Product.swift in Sources */,
 				660555602840DA77005BB6DF /* ViewController.swift in Sources */,
+				6605558D2840DC2F005BB6DF /* FMDatabasePool.m in Sources */,
+				6605558F2840DC2F005BB6DF /* FMDatabase.m in Sources */,
 				6605555E2840DA77005BB6DF /* AppDelegate.swift in Sources */,
+				660555972840DDA4005BB6DF /* MobileTableViewController.swift in Sources */,
+				6605558C2840DC2F005BB6DF /* FMDatabaseAdditions.m in Sources */,
+				6605558E2840DC2F005BB6DF /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = project_nhom3_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -368,6 +452,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.project-nhom3-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "project_nhom3_ios/FMDB/project_nhom3_ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = project_nhom3_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -385,6 +472,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.project-nhom3-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "project_nhom3_ios/FMDB/project_nhom3_ios-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
