@@ -52,7 +52,7 @@ class DatabaseLayer {
     //MARK: Datbase 's Primities Definition
     //1.open
     public func open() -> Bool{
-        var OK = false
+        let OK = false
         if let database = database{
             if database.open() {
                 os_log("the database is opened successful")
