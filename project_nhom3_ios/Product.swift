@@ -24,6 +24,8 @@ class PRODUCT {
     var Product_ProtypeID:Int
     var Product_description:String
     
+    
+    
     //MARK: Constructors
     init?(ProductID:Int, ProductName:String, ProductImage:UIImage, ProductRating:Int, Product_ProtypeID:Int, Product_description:String) {
         if Product_description.isEmpty {
