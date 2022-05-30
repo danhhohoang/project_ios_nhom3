@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "project_nhom3_ios/MyTableViewCell.swift"
+            timestampString = "675569848.449151"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "project_nhom3_ios/ViewController.swift"
+            timestampString = "675584650.402216"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_nhom3_ios.ViewController.Image.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "project_nhom3_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cntt/Desktop/nhom3_project_ios/project_nhom3_ios/ViewController.swift"
+                  timestampString = "675569688.487087"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_nhom3_ios.ViewController.Image.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "project_nhom3_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cntt/Desktop/nhom3_project_ios/project_nhom3_ios/ViewController.swift"
+                  timestampString = "675569688.491586"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_nhom3_ios.ViewController.Image.modify : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "project_nhom3_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cntt/Desktop/nhom3_project_ios/project_nhom3_ios/ViewController.swift"
+                  timestampString = "675569688.495611"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_nhom3_ios.ViewController.Image.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "project_nhom3_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cntt/Desktop/nhom3_project_ios/project_nhom3_ios/ViewController.swift"
+                  timestampString = "675569688.4996181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_nhom3_ios.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; project_nhom3_ios.ViewController"
+                  moduleName = "project_nhom3_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cntt/Desktop/nhom3_project_ios/project_nhom3_ios/ViewController.swift"
+                  timestampString = "675569688.503512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "461">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_nhom3_ios.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;project_nhom3_ios.ViewController&gt;"
+                  moduleName = "project_nhom3_ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cntt/Desktop/nhom3_project_ios/project_nhom3_ios/ViewController.swift"
+                  timestampString = "675569688.507479"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "381">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,8 +7,8 @@
 //
 
 import UIKit
+
 let MoBilePhone = [
-    
     MobiPhone(MobiphoneSectionType: "MoBile Phone",MobiPhoneImage: ["Galaxy-S22","iphone-13","iphone-xi"], MoBiPhoneName: ["Galaxy-S22","iphone-13","iphone-xi"], MoBiPhonePrice: ["33.990.000d","40.990.000d","12.990.000d"]),
     
     MobiPhone(MobiphoneSectionType: "MoBile Phone",MobiPhoneImage: ["OPPOReno7-cam","opporeno75g","realme-c35"], MoBiPhoneName: ["OPPOReno7-cam","opporeno75g","realme-c35"], MoBiPhonePrice: ["8.490.000d","10.490.000d","3.990.000d"]),
