@@ -7,12 +7,19 @@
 //
 
 import UIKit
+//0. Table MobiPhone
+struct MobiPhone {
+    let MobiphoneSectionType:String
+    let MobiPhoneImage:[String]
+    let MoBiPhoneName:[String]
+    let MoBiPhonePrice:[String]
+}
 //1. Table Product
 class PRODUCT {
     //MARK: Properties
     var ProductID:Int
     var ProductName:String
-    var ProductImage:UIImage?
+    let ProductImage:UIImage?
     var ProductRating:Int
     var Product_ProtypeID:Int
     var Product_description:String

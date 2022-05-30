@@ -20,7 +20,12 @@
 		6605558F2840DC2F005BB6DF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 660555882840DC2E005BB6DF /* FMDatabase.m */; };
 		660555922840DC6B005BB6DF /* DatabaseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660555912840DC6B005BB6DF /* DatabaseLayer.swift */; };
 		660555952840DCD3005BB6DF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660555942840DCD3005BB6DF /* Product.swift */; };
-		660555972840DDA4005BB6DF /* MobileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660555962840DDA4005BB6DF /* MobileTableViewController.swift */; };
+		6616E5132843CC390047332E /* DienThoai in Resources */ = {isa = PBXBuildFile; fileRef = 6616E5122843CC390047332E /* DienThoai */; };
+		6616E5152843CC430047332E /* LapTop in Resources */ = {isa = PBXBuildFile; fileRef = 6616E5142843CC430047332E /* LapTop */; };
+		6616E5172843CC4A0047332E /* LoGo in Resources */ = {isa = PBXBuildFile; fileRef = 6616E5162843CC4A0047332E /* LoGo */; };
+		6616E5192843CC5E0047332E /* Table in Resources */ = {isa = PBXBuildFile; fileRef = 6616E5182843CC5E0047332E /* Table */; };
+		6616E51F2843DFFA0047332E /* MoBiPhoneViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6616E51E2843DFFA0047332E /* MoBiPhoneViewCell.swift */; };
+		6616E52B2843F76A0047332E /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6616E52A2843F76A0047332E /* MyTableViewCell.swift */; };
 		662479A82843B26D0076C47E /* MyColection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662479A72843B26D0076C47E /* MyColection.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +64,13 @@
 		6605558A2840DC2F005BB6DF /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
 		660555912840DC6B005BB6DF /* DatabaseLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseLayer.swift; sourceTree = "<group>"; };
 		660555942840DCD3005BB6DF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		660555962840DDA4005BB6DF /* MobileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileTableViewController.swift; sourceTree = "<group>"; };
+		6616890F28440D9300C8D033 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		6616E5122843CC390047332E /* DienThoai */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DienThoai; path = ../../../dulieu_project/DienThoai; sourceTree = "<group>"; };
+		6616E5142843CC430047332E /* LapTop */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LapTop; path = ../../../dulieu_project/LapTop; sourceTree = "<group>"; };
+		6616E5162843CC4A0047332E /* LoGo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LoGo; path = ../../../dulieu_project/LoGo; sourceTree = "<group>"; };
+		6616E5182843CC5E0047332E /* Table */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Table; path = ../../../dulieu_project/Table; sourceTree = "<group>"; };
+		6616E51E2843DFFA0047332E /* MoBiPhoneViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoBiPhoneViewCell.swift; sourceTree = "<group>"; };
+		6616E52A2843F76A0047332E /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		662479A72843B26D0076C47E /* MyColection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +98,7 @@
 				6605555C2840DA77005BB6DF /* project_nhom3_ios */,
 				660555712840DA79005BB6DF /* project_nhom3_iosTests */,
 				6605555B2840DA77005BB6DF /* Products */,
+				6616890F28440D9300C8D033 /* libsqlite3.0.tbd */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +114,9 @@
 		6605555C2840DA77005BB6DF /* project_nhom3_ios */ = {
 			isa = PBXGroup;
 			children = (
-				662479A72843B26D0076C47E /* MyColection.swift */,
 				6605555F2840DA77005BB6DF /* ViewController.swift */,
-				660555962840DDA4005BB6DF /* MobileTableViewController.swift */,
 				660555612840DA77005BB6DF /* Main.storyboard */,
+				6616E5112843CBEE0047332E /* Picture */,
 				660555902840DC47005BB6DF /* DAL */,
 				6605557E2840DBC9005BB6DF /* FMDB */,
 				6605557D2840DB6C005BB6DF /* System file */,
@@ -164,9 +175,23 @@
 		660555932840DC9F005BB6DF /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
+				6616E52A2843F76A0047332E /* MyTableViewCell.swift */,
+				662479A72843B26D0076C47E /* MyColection.swift */,
+				6616E51E2843DFFA0047332E /* MoBiPhoneViewCell.swift */,
 				660555942840DCD3005BB6DF /* Product.swift */,
 			);
 			name = DataModels;
+			sourceTree = "<group>";
+		};
+		6616E5112843CBEE0047332E /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				6616E5182843CC5E0047332E /* Table */,
+				6616E5162843CC4A0047332E /* LoGo */,
+				6616E5142843CC430047332E /* LapTop */,
+				6616E5122843CC390047332E /* DienThoai */,
+			);
+			path = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +276,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6616E5152843CC430047332E /* LapTop in Resources */,
 				660555682840DA79005BB6DF /* LaunchScreen.storyboard in Resources */,
 				660555652840DA79005BB6DF /* Assets.xcassets in Resources */,
+				6616E5172843CC4A0047332E /* LoGo in Resources */,
+				6616E5132843CC390047332E /* DienThoai in Resources */,
 				660555632840DA77005BB6DF /* Main.storyboard in Resources */,
+				6616E5192843CC5E0047332E /* Table in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +305,12 @@
 				660555952840DCD3005BB6DF /* Product.swift in Sources */,
 				660555602840DA77005BB6DF /* ViewController.swift in Sources */,
 				6605558D2840DC2F005BB6DF /* FMDatabasePool.m in Sources */,
+				6616E52B2843F76A0047332E /* MyTableViewCell.swift in Sources */,
 				6605558F2840DC2F005BB6DF /* FMDatabase.m in Sources */,
 				662479A82843B26D0076C47E /* MyColection.swift in Sources */,
 				6605555E2840DA77005BB6DF /* AppDelegate.swift in Sources */,
-				660555972840DDA4005BB6DF /* MobileTableViewController.swift in Sources */,
 				6605558C2840DC2F005BB6DF /* FMDatabaseAdditions.m in Sources */,
+				6616E51F2843DFFA0047332E /* MoBiPhoneViewCell.swift in Sources */,
 				6605558E2840DC2F005BB6DF /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
